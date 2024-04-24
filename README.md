@@ -1,10 +1,9 @@
 # TIL
----
 Today I Learned
 for a specific objective
 ## AI
 Gain fundamentals to utilize existing APIs, build simple models, and manage MLOps infrastructure 
-[[How neural networks use back-propagation for AI]]
+[How neural networks use back-propagation for AI](https://github.com/linnalihe/til/blob/main/tech/AI/How%20neural%20networks%20use%20back-propagation%20for%20AI.md)
 
 ## JavaScript
 Be able to develop full stack applications with JavaScript frameworks and tools in the frontend, backend, or both
