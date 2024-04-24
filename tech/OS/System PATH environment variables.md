@@ -1,5 +1,7 @@
 How to set up PATH variable in Linux: https://opensource.com/article/17/6/set-path-linux
+
 Adding Path to Linux path variable: https://www.baeldung.com/linux/path-variable
+
 To persist PATH permanently add `export PATH$PATH:/place/with/the/file`  to `~/.zshrc`
 
 To be able to run application from any directory, move it to the following location

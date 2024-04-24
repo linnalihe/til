@@ -11,6 +11,7 @@ pip install tensorflow=1.4
 ```
 
 Can use virtualenv and anaconda by using pyenv; sits on top of virtualenv and anaconda; can control versions of python being run; able to set a default environment for a directory
+
 github.com/pyenv/pyenv
 ```
 pyenv local 2.7.10
