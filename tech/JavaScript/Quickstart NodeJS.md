@@ -1,4 +1,3 @@
-# Quickstart NodeJS
 #### Installation
 - Install nodejs with `nvm`
 - Create project directory

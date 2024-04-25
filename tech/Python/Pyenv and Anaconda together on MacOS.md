@@ -1,5 +1,3 @@
-# Pyenv and Anaconda together on MacOS
-
 Anaconda is primarily for doing data work
 Python distribution comes pre-installed
 Can be used to create environment that isolate your libraries and versions

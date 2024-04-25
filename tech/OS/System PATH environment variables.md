@@ -1,5 +1,3 @@
-# System PATH environment variables
-
 How to set up PATH variable in Linux: https://opensource.com/article/17/6/set-path-linux
 
 Adding Path to Linux path variable: https://www.baeldung.com/linux/path-variable
