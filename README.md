@@ -6,7 +6,7 @@ Gain fundamentals to utilize existing APIs, build simple models, and manage MLOp
 
 ## DevTools
 Utilize developer tools to build products with higher quality and faster
-- [Basic Vim commands]
+- [Basic Vim commands](https://github.com/linnalihe/til/blob/main/tech/DevTools/Basic%20Vim%20commands.md)
 
 ## JavaScript
 Be able to develop full stack applications with JavaScript frameworks and tools in the frontend, backend, or both
