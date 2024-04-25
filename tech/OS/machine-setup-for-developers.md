@@ -1,3 +1,4 @@
+# Machine setup for developers
 #### Homebrew
 [Homebrew official install documentation](https://docs.brew.sh/Installation "https://docs.brew.sh/Installation")
 ```bash

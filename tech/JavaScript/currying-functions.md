@@ -1,3 +1,5 @@
+# Currying functions
+
 https://medium.com/madhash/what-is-currying-in-javascript-and-why-does-it-matter-db5926fc4f42
 
 When a function returns another function to process the next parameter 
