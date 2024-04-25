@@ -21,5 +21,5 @@ Capable of navigating and understand where to look when a computer is doing unex
 
 ## Python
 Be able to develop backend APIs, perform data analysis, and build automated systems
-- [Pyenv and Anaconda together (MacOS)](https://github.com/linnalihe/til/blob/main/tech/Python/Pyenv%20and%20Anaconda%20together%20(MacOS).md)
+- [Pyenv and Anaconda together on MacOS](https://github.com/linnalihe/til/blob/main/tech/Python/Pyenv%20and%20Anaconda%20together%20on%20MacOS.md)
 - [Quickstart set up Flask project](https://github.com/linnalihe/til/blob/main/tech/Python/Quickstart%20Flask.md)
