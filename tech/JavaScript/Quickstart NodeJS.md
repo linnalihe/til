@@ -1,12 +1,5 @@
----
-draft: false
-date: 2024-04-13 23:52
-tags:
-  - better-eng
-internal-links:
----
-### Bare Basics
 
+#### Installation
 - Install nodejs with `nvm`
 - Create project directory
 - Install dependencies with `npm i express`
@@ -19,6 +12,7 @@ internal-links:
   }
 ```
 
+#### Creating project
 - Create `index.js` and start coding
 
 ```javascript
@@ -36,14 +30,15 @@ app.get("/", function(req, res){
 app.listen(PORT, () => console.log(`Server running on port ${PORT})`);
 ```
 
-### Environment variables for NodeJS projects
+#### Environment variables for NodeJS projects
 Use `.env` and use with package `dotenv`
 https://www.freecodecamp.org/news/heres-how-you-can-actually-use-node-environment-variables-8fdf98f53a0a/
-### Express
+
+#### Express
 Express is a server-side / back-end framework that works with Node.js
 Can also render views with express but usually used with a front end that renders the data that is sent over from the backend so it's dynamic
 
-### Create a `routes/` directory 
+#### Create a `routes/` directory 
 You can then export from the file. You have to import express and use the express router to make this work. Then import it in `index.js`
 
 ```javascript
@@ -77,7 +72,7 @@ modules.exports = router;
 app.use("/api/data, require("./routes/api/data")")
 ```
 
-### Middleware
+#### Middleware
 
 ```javascript
 // creates the middleware function called middleware1

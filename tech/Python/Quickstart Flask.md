@@ -1,5 +1,6 @@
 https://flask.palletsprojects.com/en/2.3.x/
 
+#### Installation
 Go to [Postgres app download page](https://postgresapp.com/downloads.html) and download postges.app if on MacOS
 
 Go to [Pgadmin](https://www.pgadmin.org/), go to download page for your system and download PgAdmin - this is optional but will let you look at your data in a Graphical User Interface aka GUI; can also use others such as Postico or DBeaver
@@ -13,6 +14,7 @@ Set up python environment with pyenv
 Install with pip
 `pip install flask, flask-sqlalchemy` ... etc
 
+#### Project creation and stand up DB
 Create an app.py file (this is the main file that you need)
 
 Database operations can be done locally for testing and development; Use migrations should be used for operating on production database
