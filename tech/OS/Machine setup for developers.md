@@ -15,7 +15,7 @@ Check which shell you're running with `echo $0`
 
 General alias to add to `~/.zshrc`
 ```bash
-alias cls='printf "\ec"'
+alias cls='printf "\ec"' # clear terminal
 ```
 #### Git
 This is a free open source version control tool, separate from GitHub which is a prioprietary company that manages a interface tool that visualizes/augements the git experience
