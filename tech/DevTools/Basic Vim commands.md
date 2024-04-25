@@ -1,12 +1,7 @@
----
-date: 2024-04-18 10:11
-tags:
-  - save-time
-internal-links:
----
-https://missing.csail.mit.edu/2020/editors/
-https://superuser.com/questions/246487/how-to-use-vimtutor
-https://thevaluable.dev/vim-adept/
+
+- https://missing.csail.mit.edu/2020/editors/
+- https://superuser.com/questions/246487/how-to-use-vimtutor
+- https://thevaluable.dev/vim-adept/
 
 ##### Switching Modes
 ```
