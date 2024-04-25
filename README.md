@@ -12,7 +12,7 @@ Utilize developer tools to build products with higher quality and faster
 Be able to develop full stack applications with JavaScript frameworks and tools in the frontend, backend, or both
 - [Currying functions](https://github.com/linnalihe/til/blob/main/tech/JavaScript/Currying%20functions.md)
 - [Quickstart to NodeJS](https://github.com/linnalihe/til/blob/main/tech/JavaScript/Quickstart%20NodeJS.md)
-- [[Intro to React hooks]]
+- [Intro to React hooks](https://github.com/linnalihe/til/blob/main/tech/JavaScript/Intro%20to%20React%20hooks.md)
 
 ## OS
 Capable of navigating and understand where to look when a computer is doing unexpected things
