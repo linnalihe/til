@@ -1,6 +1,7 @@
+https://medium.com/madhash/what-is-currying-in-javascript-and-why-does-it-matter-db5926fc4f42
 
 When a function returns another function to process the next parameter 
-https://medium.com/madhash/what-is-currying-in-javascript-and-why-does-it-matter-db5926fc4f42
+
 ```
 your_currying_function(param1)(param2)(param3)
 
