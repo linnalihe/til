@@ -15,6 +15,7 @@ Be able to develop full stack applications with JavaScript frameworks and tools 
 
 ## OS
 Capable of navigating and understand where to look when a computer is doing unexpected things
+- [[Machine setup for developers]]
 - [System PATH environment variables](https://github.com/linnalihe/til/blob/main/tech/OS/System%20PATH%20environment%20variables.md)
 
 ## Python
