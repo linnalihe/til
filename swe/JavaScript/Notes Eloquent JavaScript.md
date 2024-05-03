@@ -13,3 +13,7 @@ https://eloquentjavascript.net/03_functions.html
   
 https://eloquentjavascript.net/04_data.html
 - objects and methods, built in functions, spreading parameters, arrays, objects, mutability, optional property access with `?`, JSON.stringify and JSON.parse
+- #todo go back to complete the last 2 exercises
+
+https://eloquentjavascript.net/05_higher_order.html
+- higher-order functions are those tht operate on other function either by taking them as arguments or returning them
