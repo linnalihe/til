@@ -23,3 +23,9 @@ https://eloquentjavascript.net/05_higher_order.html
 
 https://eloquentjavascript.net/06_object.html
 - `this` binds to the object from where it's being called
+- classes, prototypes and private functions with #, overriding methods and polymorphism
+- symbols can be use to name a key the same as a reserved variable name
+- iterator, inheritance
+- encapulsate logic with objects and only expose an interface so you control how others interact with the object
+- Different types can implement the same interface. Using an interface automatically to know how to work with many different objects that provide the interface is polymorphism
+- #todo 3 exercises
