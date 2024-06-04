@@ -28,8 +28,9 @@ https://eloquentjavascript.net/06_object.html
 - iterator, inheritance
 - encapulsate logic with objects and only expose an interface so you control how others interact with the object
 - Different types can implement the same interface. Using an interface automatically to know how to work with many different objects that provide the interface is polymorphism
-- Exercise 1
-  ```
+```
+  Exercise 1
+
   class Vec {
     constructor(x, y) {
         this.x = x
@@ -51,9 +52,9 @@ console.log(new Vec(1, 2).minus(new Vec(2, 3)));
 // → Vec{x: -1, y: -1}
 console.log(new Vec(3, 4).length);
 // → 5
-  ```
-- Exercise 2
-```
+
+Exercise 2
+
 class Group {
     constructor() {
         this.members = []
@@ -93,5 +94,4 @@ console.log(group.has(30));
 group.add(10);
 group.delete(10);
 console.log(group.has(10));
-// → false
-```
+// → false```
