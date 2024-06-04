@@ -28,7 +28,7 @@ https://eloquentjavascript.net/06_object.html
 - iterator, inheritance
 - encapulsate logic with objects and only expose an interface so you control how others interact with the object
 - Different types can implement the same interface. Using an interface automatically to know how to work with many different objects that provide the interface is polymorphism
-- exercise 1
+- Exercise 1
   ```
   class Vec {
     constructor(x, y) {
@@ -45,4 +45,53 @@ https://eloquentjavascript.net/06_object.html
         return Math.sqrt(this.x * this.x + this.y * this.y)
     }
 }
+console.log(new Vec(1, 2).plus(new Vec(2, 3)));
+// → Vec{x: 3, y: 5}
+console.log(new Vec(1, 2).minus(new Vec(2, 3)));
+// → Vec{x: -1, y: -1}
+console.log(new Vec(3, 4).length);
+// → 5
   ```
+- Exercise 2
+```
+class Group {
+    constructor() {
+        this.members = []
+    }
+    static from(input) {
+        const group = new Group()
+        for (let i = input[0]; i <= input[1]; i++) {
+            group.members.push(i)
+        }
+        return group
+    }
+    has(val) {
+        let hasVal = false
+        if (this.members.indexOf(val) > -1) {
+            hasVal = true
+        }
+        return hasVal
+    }
+    add(val) {
+        if (!this.has(val)) {
+            this.members.push(val)
+        }
+    }
+    delete(val) {
+        let res;
+        const idx = this.members.indexOf(val)
+        if (idx > -1) {
+            res = this.members.splice(idx, 1)
+        }
+    }
+}
+let group = Group.from([10, 20]);
+console.log(group.has(10));
+// → true
+console.log(group.has(30));
+// → false
+group.add(10);
+group.delete(10);
+console.log(group.has(10));
+// → false
+```
