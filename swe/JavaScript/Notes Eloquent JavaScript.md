@@ -28,4 +28,21 @@ https://eloquentjavascript.net/06_object.html
 - iterator, inheritance
 - encapulsate logic with objects and only expose an interface so you control how others interact with the object
 - Different types can implement the same interface. Using an interface automatically to know how to work with many different objects that provide the interface is polymorphism
-- #todo 3 exercises
+- exercise 1
+  ```
+  class Vec {
+    constructor(x, y) {
+        this.x = x
+        this.y = y
+    }
+    plus(another_vec) {
+        return new Vec(this.x + another_vec.x, this.y + another_vec.y)
+    }
+    minus(another_vec) {
+        return new Vec(this.x - another_vec.x, this.y - another_vec.y)
+    }
+    get length() {
+        return Math.sqrt(this.x * this.x + this.y * this.y)
+    }
+}
+  ```
